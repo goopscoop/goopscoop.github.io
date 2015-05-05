@@ -65,3 +65,8 @@ text {
   top: 50%;
   transform: translateY(25%);
 }
+
+.border-right {
+  border-right: solid white 1px;
+  padding-right: 10%;
+}
