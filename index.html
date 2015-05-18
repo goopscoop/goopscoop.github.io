@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio site for web architect and author S. Cody Barrus.">
+    <meta name="description" content="Portfolio site for full stack web developer and author S. Cody Barrus. Skilled at Angular, Node, Rails, JavaScript, and more.">
     <meta name="author" content="S. Cody Barrus">
 
     <title>S. Cody Barrus - Web Developer & Author</title>
@@ -21,6 +21,20 @@
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Paralax -->
+    <script src="js/parallax.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+    <script src='js/scrollReveal.js'></script>
+<!-- My JS Script -->
+    <script src='js/script.js'></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -39,9 +53,11 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light">S. Cody</span> Barrus
-                </a>
+                <div data-sr='enter top, over 1.5s, wait 5.2s, ease-in-out 30px, vFactor 0.0'>
+                    <a class="navbar-brand page-scroll" href="#page-top">
+                        <span class="light">S. Cody</span> Barrus
+                    </a>
+                </div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,16 +67,16 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
+                    <li data-sr='enter top, over 1.5s, wait 5.4s, ease-in-out 30px, vFactor 0.0'>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <li>
+                    <li data-sr='enter top, over 1.5s, wait 5.7s, ease-in-out 30px, vFactor 0.0'>
                         <a class="page-scroll" href="#download">Portfolio</a>
                     </li>
-                    <li>
+                    <li data-sr='enter top, over 1.5s, wait 5.9s, ease-in-out 30px, vFactor 0.0'>
                         <a class="page-scroll" href="#resume">Resume</a>
                     </li>
-                    <li>
+                    <li data-sr='enter top, over 1.5s, wait 6.1s, ease-in-out 30px, vFactor 0.0'>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -79,10 +95,19 @@
                         <svg>
                           <text class="brand-heading" alignment-baseline="central" y='50%' x='50%' text-anchor="middle" y="80" fill="none" stroke="white" stroke-width="2" >S. Cody Barrus</text>
                         </svg>
-                            <p id='intro-overide' class="intro-text">Web Developer, Author <br> & Creativity Enthusiast.</p>
+                            <p id='intro-overide' class="intro-text">
+                                <span data-sr='enter left, over 1.3s, wait 2.2s, ease-in-out 100px, vFactor 0.0'>Web Developer</span>
+                                <span data-sr='enter right, over 0.5s, wait 2.8s, ease-in-out 30px, vFactor 0.0'>,</span>
+                                <span data-sr='enter right, over 1.3s, wait 3.3s, ease-in-out 100px, vFactor 0.0'>Author</span>
+                                <br>
+                                <span data-sr='enter left, over 0.5s, wait 3.6s, ease-in-out 30px, vFactor 0.0'>&</span>
+                                <span data-sr='enter right, over 1.3s, wait 4.0s, ease-in-out 100px, vFactor 0.0'>Creativity Enthusiast.</span>
+                            </p>
+                        <div data-sr='enter bottom, over 0.8s, wait 5.0s, ease-in-out 100px'>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,11 +119,11 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <!-- <div class="row"> -->
-                <div class="parallax-window" data-parallax="scroll" data-image-src="img/scbsquare.jpg"></div>
-                    <p><img data-sr='enter top, move 60px, over 1.3s' id='profile-photo' class='img-round img-responsive' src="img/scbsquare.jpg"></p>
+                <div id='taco' class="parallax-window" data-parallax="scroll" data-image-src="img/scbsquare.jpg"></div>
+                    <p><img data-sr='enter bottom, move 100px, over 1.3s' id='profile-photo' class='img-round img-responsive' src="img/scbsquare.jpg"></p>
                 <!-- </div> -->
-                <h2 data-sr='enter bottom, move 60px, over 0.5, wait 0.5s'>About me</h2>
-                <p data-sr='enter bottom, move 60px, over 0.5, wait 0.5s'>Hi, I'm Cody Barrus. I'm a <strong>web developer</strong> and <strong>science fiction author</strong> with a background in <strong>internet marketing</strong>. Really, I'm just passionate about creating things, problem solving, and telling stories. Whether it's developing the plot of a kick ass steampunk adventure novel, or developing a great app that takes the thought out of lunch, I enjoy every aspect of the creation process.</p>
+                <h2 data-sr='enter bottom, move 100px, over 1.5s'>About me</h2>
+                <p data-sr='enter bottom, move 100px, over 1.5s, wait 0.2s'>Hi, I'm Cody Barrus. I'm a <strong>web developer</strong> and <strong>science fiction author</strong> with a background in <strong>internet marketing</strong>. Really, I'm just passionate about creating things, problem solving, and telling stories. Whether it's developing the plot of a kick ass steampunk adventure novel, or developing a great app that takes the thought out of lunch, I enjoy every aspect of the creation process.</p>
             </div>
         </div>
     </section>
@@ -108,54 +133,106 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-10 col-lg-offset-1">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 proj-index">
+                        <h3>Projects</h3>
+                        <div class="col-md-6">
+                            <h4>Web Development</h4>
+                            <ul>
+                                <li><a class="page-scroll" href="#memory-ln">Memory Lane</a></li>
+                                <li><a class="page-scroll" href="#lunchbreak">LunchBreak.Ninja</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Publishing</h4>
+                            <ul>
+                                <li><a class="page-scroll" href="#discover">Discovering Aberration</a></li>
+                                <li><a class="page-scroll" href="#gin">The Gin Thief</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        <!-- Memory Lane -->
                     <div class="row">
-                        <h2 data-sr='enter left, move 160px, over 1.3s'>Developer Portfolio</h2>
+                        <h2 id="memory-ln" data-sr='enter left, move 160px, over 1.3s'>Developer Portfolio</h2>
                         <div class="row">
-                            <div data-sr='enter left, move 80px, over 0.5s' class="col-lg-7 align-justify">
-                                <h3>LunchBreak.Ninja</h3>
-                                <p >{ JavaScript, Node.js && Bootstrap }</p>
-                                <p ><em>Find great places to eat in seconds, no thought required</em></p>
-                                <p >LunchBreak.Ninja was my first major web development project. It was created help you find a great place to eat within walking distance of your office, no matter where you are. Built on Node.js and utilizing the Yelp and Google Maps APIs as well, it was built from the ground up in a single week and has been maintained since.</p>
+                            <div class="col-lg-5">
+                                <img data-sr='enter left, move 40px, over 0.5s' src="img/memoryln.jpg" class='img-responsive center-img-mobile'>
+                            </div>
+                            <div data-sr='enter right, move 40px, over 0.5s, vFactor 0.3' class="col-lg-6 col-lg-offset-1 align-justify">
+                                <h3>Memory Lane</h3>
+                                <p>{ Ruby, ActiveRecord, JavaScript && Bootstrap }</p>
+                                <p><em>Easily transform your memories into beautiful animated and customizable single page experiences.</em></p>
+                                <p>MemoryLn.me was a group project developed by myself, Jake Rohr and Aida Mengistu. I worked as project manager while working primarily on the backend, setting up databases and working with Ruby on Rails. My controbution also included many of the features, including the ability to add blocks and choose themes in edit mode.</p>
+                                <p>As product manager, we I set up a agile work flow. Due to the week long production, we kicked agile into overdrive, meeting twice a day to discuss tactics, evaluate which features to add next.</p>
                             </div>
 
-                            <div class="col-lg-2 col-lg-offset-1">
-                                <img data-sr='enter right, move 80px, over 0.5s' src="img/responsive-lunch.jpg" class='image-responsive portfolio-img'>
+                        </div>
+                        <div class="row">
+                            <a href="http://www.memoryln.me" target="_blank" class="btn btn-default btn-lg pfl-btn">Visit MemoryLn.me</a>
+                        </div>
+                    </div>
+                    <br>
+                    <hr id="lunchbreak" >
+                    <br>
+        <!-- Lunch Break Ninja -->
+                    <div class="row">
+                        <div class="row">
+                            <div data-sr='enter left, move 40px, over 0.5s, vFactor 0.3' class="col-lg-6 align-justify">
+                                <h3>LunchBreak.Ninja</h3>
+                                <p>{ JavaScript, Node.js && Bootstrap }</p>
+                                <p><em>Find great places to eat in seconds, no thought required</em></p>
+                                <p>LunchBreak.Ninja was my first major web development project which I developed from the ground up in a single week. It was created help you find a great place to eat within walking distance of your office, no matter where you are. Built on Node.js and utilizing the Yelp and Google Maps APIs as well.</p>
+                                <p>As my first major web development project, I spent nearly as much time learning the intricacies of Node as I did developing the functions that pick your restaurant for you. Not only was this project a great learning experience, I'm also very pleased with the end result, having used the app several times myself.</p>
+                            </div>
+
+                            <div class="col-lg-5 col-lg-offset-1">
+                                <img data-sr='enter right, move 40px, over 0.5s' src="img/responsive-lunch.jpg" class='img-responsive center-img-mobile'>
                             </div>
                         </div>
-                        <a href="http://www.lunchbreak.ninja" class="btn btn-default btn-lg">Visit LunchBreak.Ninja</a>
+                        <div class="row">
+                            <a href="http://www.lunchbreak.ninja" target="_blank" class="btn btn-default btn-lg pfl-btn">Visit LunchBreak.Ninja</a>
+                        </div>
                     </div>
                     <br>
                     <hr>
                     <br>
+        <!-- Discovering Aberration -->
                     <div class="row">
-                        <h2 data-sr='enter right, move 160px, over 1.3s'>Author Portfolio</h2>
-                        <div class="col-lg-4">
-                            <img data-sr='enter left, move 80px, over 0.5s' src="img/aberrationwidth300.jpg" class='image-responsive'>
+                        <h2 id="discover" data-sr='enter left, move 40px, over 0.5s'>Author Portfolio</h2>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img data-sr='enter left, move 40px, over 0.5s' src="img/aberrationwidth300.jpg" class='img-responsive center-img-mobile'>
+                            </div>
+                            <div data-sr='enter right, move 40px, over 0.5s' class="col-lg-7 col-lg-offset-1 align-justify">
+                                    <h3>Discovering Aberration</h3>
+                                    <p><em>Violent archaeologists, notorious gangsters, and an island that drives people insane.</em></p>
+                                    <p>"Lovecraftian in the best possible way... the juxtaposition of a steampunk alt-Victorian society and a savage, almost alien island that literally distorts its visitors' sanity and quickly runs red with blood is striking."<br><strong>-Vance Kotrla, Nerds of a Feather</strong></p>
+                                    <p>"So very few steampunk/Victorian stories out there will capture your attention the way this one will."<br><strong>-Ryan, Reader Review</strong></p>
+                                    <p>"Discovering Aberration will steal your mind from reality and take you to a place of unpredictable adventure with twists and turns that will leave you craving more."<br><strong>-EJR, Reader Review</strong></p>
+                            </div>
                         </div>
-                        <div data-sr='enter right, move 80px, over 0.5s' class="col-lg-7 col-lg-offset-1 align-justify">
-                                <h3>Discovering Aberration</h3>
-                                <p><em>Violent archeologists, notorious gangsters, and an island that drives people insane.</em></p>
-                                <p>"Lovecraftian in the best possible way... the juxtaposition of a steampunk alt-Victorian society and a savage, almost alien island that literally distorts its visitors' sanity and quickly runs red with blood is striking."<br><strong>-Vance Kotrla, Nerds of a Feather</strong></p>
-                                <p>"So very few steampunk/Victorian stories out there will capture your attention the way this one will."<br><strong>-Ryan, Reader Review</strong></p>
-                                <p>"Discovering Aberration will steal your mind from reality and take you to a place of unpredictable adventure with twists and turns that will leave you craving more."<br><strong>-EJR, Reader Review</strong></p>
+                        <div class="row">
+                            <a href="http://www.amazon.com/Discovering-Aberration-S-C-Barrus/dp/0989917703" target="_blank" class="btn btn-default btn-lg pfl-btn">View Discovering Aberration on Amazon</a>
                         </div>
-                        <a href="http://www.amazon.com/Discovering-Aberration-S-C-Barrus/dp/0989917703" class="btn btn-default btn-lg">View Discovering Aberration on Amazon</a>
                     </div>
                     <br>
-                    <hr>
+                    <hr id="gin">
                     <br>
                     <div class="row">
-                        <div data-sr='enter left, move 80px, over 0.5s' class="col-lg-7 align-justify">
+                        <div data-sr='enter left, move 40px, over 0.5s' class="col-lg-7 align-justify">
                                 <h3>The Gin Thief</h3>
                                 <p><em>A foreign girl attempting to enter an unforgiving city finds herself thrust into a violent struggle for survival.</em></p>
                                 <p>"Once again, Mr. Barrus has delivered a striking piece of literary genius. "<br><strong>-Vance Kotrla, Nerds of a Feather</strong></p>
                                 <p>"This first episode of the Gin Thief series is a fascinating story..."<br><strong>-SdP, Reader Review</strong></p>
                         </div>
                         <div class="col-lg-4 col-lg-offset-1">
-                            <img data-sr='enter right, move 80px, over 0.5s' src="img/ginwidth300.jpg" class='image-responsive'>
+                            <img data-sr='enter right, move 40px, over 0.5s' src="img/ginwidth300.jpg" class='img-responsive center-img-mobile'>
                         </div>
                     </div>
-                        <a href="http://www.amazon.com/The-Gin-Thief-Episode-Becoming-ebook/dp/B00NQAELY2/" class="btn btn-default btn-lg">View The Gin Thief on Amazon</a>
+                    <div class="row">
+                        <a href="http://www.amazon.com/The-Gin-Thief-Episode-Becoming-ebook/dp/B00NQAELY2/" target="_blank" class="btn btn-default btn-lg pfl-btn">View The Gin Thief on Amazon</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -163,32 +240,35 @@
     <section id="resume" class="content-section">
         <div class="resume-section">
             <div class="container">
-                <div class="col-lg-10 col-lg-offset-1">
+                <div id="resume-texture" class="col-lg-10 col-lg-offset-1">
+                    <div class="row center">
+                        <h3>S. Cody Barrus</h3>
+                    </div>
                     <h2 data-sr='enter left, move 160px, over 1.3s'>Resume</h2>
                     <div class="row">
-                        <div  class="col-lg-7 align-justify border-right">
-                            <div data-sr='enter left, move 80px, over 0.5s, wait 0.5s'>
-                                <h3>Experiance</h3>
+                        <div data-sr='enter bottom, move 160px, over 0.5s, vFactor 0.1, scale up 40%' class="col-lg-7 col-md-7 align-justify border-right">
+                            <div data-sr='enter left, move 40px, over 0.5s, wait 1.0s, vFactor 0.3'>
+                                <h3>Experience</h3>
                                 <h4>Web Development Immersive Student - <em>General Assembly</em></h4>
                                 <p><em>March 2015 - June 2015</em></p>
                                 <ul>
-                                    <li>Student in a full time, intensive training program devoted to learning the skills I need to develop fullstack web apps.</li>
+                                    <li>Student in a full time, intensive training program devoted to learning the skills I need to develop full-stack web apps.</li>
                                     <li>Among other skills, I learned JavaScript, jQuery, AJAX, Node.js, Ruby, Ruby on Rails, and Angular.</li>
-                                    <li>Developed 3 fully functional apps from the ground up.</li>
+                                    <li>Developed 3 fully functional apps from the ground up (see portfolio above).</li>
                                 </ul>
-                                <hr>
+                                <hr data-sr='enter left, move 40px, over 1.0s, wait 1.0s, scale up 40%'>
                             </div>
-                            <div data-sr='enter left, move 80px, over 0.5s, wait 0.5s'>
+                            <div data-sr='enter left, move 40px, over 1.5s, wait 0.5s, vFactor 0.3'>
                                 <h4>Author - <em>Away & Away Publishing</em></h4>
                                 <p><em>June 2013 - Present</em></p>
                                 <ul>
                                     <li>Sold over 10,000 copies of my works in 2014 (numbers include digital and physical books but do not include promotional giveaway copies).</li>
                                     <li>Wrote full length (140,000 word) novel Discovering Aberration.</li>
-                                    <li>Raised funds of $3,783 through crowdfunding site Kickstarter to offset costs of editing and design (Publishing related projects have a 32.45% success rate).</li>
+                                    <li>Raised funds of $3,783 through crowd-funding site Kickstarter to offset costs of editing and design (Publishing related projects have a 32.45% success rate).</li>
                                 </ul>
-                                <hr>
+                                <hr data-sr='enter left, move 40px, over 1.0s, wait 1.5s, scale up 40%'>
                             </div>
-                            <div data-sr='enter left, move 80px, over 0.5s, wait 0.5s'>
+                            <div data-sr='enter left, move 40px, over 0.5s, wait 0.5s, vFactor 0.3'>
                                 <h4>Account Manager - <em>Chair 10 Marketing</em></h4>
                                 <p><em>February 2014 - October 2014</em></p>
                                 <ul>
@@ -196,11 +276,11 @@
                                     <li>Managed advertising campaigns within AdWords, Facebook & Twitter.</li>
                                     <li>Performed various SEO tasks including keyword research, meta data optimization and optimized content writing.</li>
                                 </ul>
-                                <hr>
+                                <hr id='last-hr' data-sr='enter left, move 40px, over 1.0s, wait 1.0s, scale up 40%'>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-lg-offset-1">
-                            <div data-sr='enter right, move 80px, over 0.5s'>
+                        <div class="col-lg-4 col-md-4 col-md-offset-1 col-lg-offset-1">
+                            <div data-sr='enter right, move 40px, over 0.5s'>
                                 <h3>Skills</h3>
                                 <h4>Web Development</h4>
                                 <ul>
@@ -209,12 +289,12 @@
                                     <li><strong>Database Tools:</strong> SQL, PostgreSQL, Sequelize, Active Record.</li>
                                     <li><strong>Other:</strong> GitHub, jQuery, AJAX, JSON, Bootstrap, Photoshop, Wordpress.</li>
                                 </ul>
-                                <hr>
+                                <hr data-sr='enter right, move 40px, over 1.5s, wait 1.0s, scale up 40%'>
                             </div>
-                            <div data-sr='enter right, move 80px, over 0.5s'>
+                            <div data-sr='enter right, move 40px, over 0.5s'>
                                 <h4>Marketing</h4>
                                 <ul>
-                                    <li><strong>Content Markeing:</strong> Search Engine Optimization, Content Creation, Content Curation.</li>
+                                    <li><strong>Content Marketing:</strong> Search Engine Optimization, Content Creation, Content Curation.</li>
                                     <li><strong>Email Marketing:</strong> Mailing List Growth, Giveaway Contest Management, Email Content Strategy.</li>
                                     <li><strong>Pay Per Click:</strong> Adwords, Facebook, Reddit and Twitter Ad Campaigns.</li>
                                 </ul>
@@ -231,8 +311,7 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p>Want to work together? Email me.</p>
+                <h2>Lets work together. Email me!</h2>
                 <p><a href="mailto:codybarrus@gmail.com">codybarrus [at] gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
@@ -253,35 +332,10 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container text-center">
+        <div class="container text-center footer">
             <p>Copyright &copy; S. Cody Barrus 2015</p>
         </div>
     </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Paralax -->
-
-
-    <script src="js/parallax.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
-     <script src='js/scrollReveal.js'></script>
-
-    <!-- Custom JS Script -->
-    <script src='js/script.js'></script>
-
-    <!-- Tubular -->
-    <script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
 </body>
 
 </html>

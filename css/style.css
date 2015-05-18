@@ -51,6 +51,9 @@ text {
   }
 }
 
+.center {
+  text-align: center;
+}
 .img-round {
   border-radius: 50%;
   margin: 0 auto;
@@ -60,13 +63,124 @@ text {
   text-align: justify;
 }
 
-.portfolio-img {
-  position: relative;
-  top: 50%;
-  transform: translateY(25%);
+/*Finish index section*/
+.proj-index {
+  background-color: #F8F8FF;
+  padding: 15px 30px;
+  margin-bottom: 100px;
+  border: solid #42dca3 3px;
 }
 
-.border-right {
-  border-right: solid white 1px;
-  padding-right: 10%;
+.proj-index li {
+  list-style: none;
+  border: solid #42dca3;
+  color: #42dca3;
+  border-width: 3px 3px 3px 30px;
+  border-radius: 6px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0 0 10px 0;
+  padding: 2px 2px 2px 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
+
+.proj-index a {
+  display: block;
+  padding-left: 5px;
+}
+
+.proj-index a:hover,
+.proj-index a:focus {
+  color: #000;
+  padding-left: 40px;
+}
+
+.proj-index li:hover,
+.proj-index li:focus {
+    outline: 0;
+    color: #000;
+    background-color: #42dca3;
+}
+
+.proj-index ul {
+  padding: 0;
+}
+
+.proj-index h3,
+.proj-index h4 {
+  margin-bottom: 15px;
+}
+
+
+.pfl-btn {
+  display: block;
+  margin: 10px auto;
+}
+
+#resume {
+  background-color: #F8F8FF;
+}
+
+#resume hr {
+  border-color: black;
+}
+
+#resume-texture {
+  background-image: url(../img/ivory-off-white-paper-texture.jpg);
+  color: #000;
+  padding: 100px;
+  -webkit-box-shadow: 0px -5px 33px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -5px 33px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px -5px 33px -2px rgba(0,0,0,0.75);
+}
+
+.footer {
+  margin-bottom: 60px;
+}
+
+#resume-texture {
+    background-image: url(../img/ivory-off-white-paper-texture.jpg);
+    color: #000;
+    padding: 100px;
+    -webkit-box-shadow: 0px -5px 33px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -5px 33px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px -5px 33px -2px rgba(0,0,0,0.75);
+    margin-bottom: 250px;
+  }
+
+@media (min-width : 992px) {
+  .pfl-btn {
+  width: 50%;
+  }
+
+  .border-right {
+    /*border-right: solid white 1px;*/
+    border-right: solid black 1px;
+    padding-right: 10%;
+  }
+  #last-hr {
+    display: none;
+  }
+
+  #resume-texture {
+    padding: 100px;
+  }
+}
+
+@media (max-width : 992px) {
+  .center-img-mobile {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #resume-texture {
+    padding: 25px;
+  }
+}
+
+
+
+
+
+
