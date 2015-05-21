@@ -143,6 +143,11 @@ text {
   }
 }
 
+.resume-pdf {
+  height: 1050px;
+  width: 800px;
+}
+
 @media (max-width : 992px) {
   .center-img-mobile {
     display: block;
