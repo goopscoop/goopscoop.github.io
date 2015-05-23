@@ -8,7 +8,7 @@ text {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  -webkit-animation: draw 5s forwards;
+  -webkit-animation: draw 5.5s forwards;
 }
 @-webkit-keyframes draw {
   100% {
@@ -19,11 +19,11 @@ text {
 text {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  -webkit-animation: draw 5s forwards;
-  -moz-animation: draw 5s forwards;
-  -o-animation: draw 5s forwards;
-  -ms-animation: draw 5s forwards;
-  animation: draw 5s forwards;
+  -webkit-animation: draw 5.5s forwards;
+  -moz-animation: draw 5.5s forwards;
+  -o-animation: draw 5.5s forwards;
+  -ms-animation: draw 5.5s forwards;
+  animation: draw 5.5s forwards;
 }
 @-webkit-keyframes draw {
   100% {
