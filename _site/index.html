@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio site for full stack web developer and author S. Cody Barrus. Skilled at Angular, Node, Rails, JavaScript, and more.">
+    <meta name="author" content="S. Cody Barrus">
+
+    <title>S. Cody Barrus - Web Developer & Author</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Paralax -->
+    <script src="js/parallax.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+    <script src='js/scrollReveal.js'></script>
+<!-- My JS Script -->
+    <script src='js/script.js'></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div data-sr='enter top, over 1.5s, wait 1.2s, ease-in-out 30px, vFactor 0.0'>
+                    <a class="navbar-brand page-scroll" href="#page-top">
+                        <span class="light">S. Cody</span> Barrus
+                    </a>
+                </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li data-sr='enter top, over 1.5s, wait 1.4s, ease-in-out 30px, vFactor 0.0'>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li data-sr='enter top, over 1.5s, wait 1.6s, ease-in-out 30px, vFactor 0.0'>
+                        <a class="page-scroll" href="#download">Portfolio</a>
+                    </li>
+                    <li class="dropdown">
+                      <a data-sr='enter top, over 1.5s, wait 1.8s, ease-in-out 30px, vFactor 0.0' href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Resume <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a target="_blank" href="CodyBarrusResume.pdf">PDF</a></li>
+                        <li><a href="CodyBarrusTextResume.doc">Word</a></li>
+                        <li><a target="_blank" href="CodyBarrusTextResume.txt">Plain Text</a></li>
+                        <!-- <li><a target="_blank" href="barrus.json">JSON</a></li> -->
+                      </ul>
+                    </li>
+                    <li data-sr='enter top, over 1.5s, wait 2.0s, ease-in-out 30px, vFactor 0.0'>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro" data-parallax="scroll" data-image-src="img/intro-bg.jpg">
+        <div class="intro-body" >
+            <div class="container">
+                <div class="row" >
+                    <div class="col-md-8 col-md-offset-2">
+                        <svg>
+                          <text class="brand-heading" alignment-baseline="central" y='50%' x='50%' text-anchor="middle" y="80" fill="none" stroke="white" stroke-width="2" >S. Cody Barrus</text>
+                        </svg>
+                            <p id='intro-overide' class="intro-text">
+                                <span data-sr='enter left, over 0.7s, wait 0.8s, ease-in-out 40px, vFactor 0.0'>Web Developer, Author</span>
+                                <br>
+                                <span data-sr='enter right, over 0.7s, wait 1.2s, ease-in-out 40px, vFactor 0.0'>& Creativity Enthusiast.</span>
+                            </p>
+                        <div data-sr='enter bottom, over 0.7s, wait 2.4s, ease-in-out 50px'>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <!-- <div class="row"> -->
+                <div id='taco' class="parallax-window" data-parallax="scroll" data-image-src="img/scbsquare.jpg"></div>
+                    <p><img data-sr='enter bottom, move 100px, over 1.3s' id='profile-photo' class='img-round img-responsive' src="img/scbsquare.jpg"></p>
+                <!-- </div> -->
+                <h2 data-sr='enter bottom, move 100px, over 1.5s'>About me</h2>
+                <p data-sr='enter bottom, move 100px, over 1.5s, wait 0.2s'>Hi, I'm Cody Barrus. I'm a <strong>web developer</strong> and <strong>science fiction author</strong> with a background in <strong>internet marketing</strong>. Really, I'm just passionate about creating things, problem solving, and telling stories. Whether it's developing the plot of a kick ass steampunk adventure novel, or developing a great app that takes the thought out of lunch, I enjoy every aspect of the creation process.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="content-section">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-10 col-lg-offset-1">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 proj-index">
+                        <h3>Projects</h3>
+                        <div class="col-md-6">
+                            <h4>Web Development</h4>
+                            <ul>
+                                <li><a class="page-scroll" href="#memory-ln">Memory Lane</a></li>
+                                <li><a class="page-scroll" href="#lunchbreak">LunchBreak.Ninja</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Publishing</h4>
+                            <ul>
+                                <li><a class="page-scroll" href="#discover">Discovering Aberration</a></li>
+                                <li><a class="page-scroll" href="#gin">The Gin Thief</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        <!-- Memory Lane -->
+                    <div class="row">
+                        <h2 id="memory-ln" data-sr='enter left, move 160px, over 1.3s'>Developer Portfolio</h2>
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img data-sr='enter left, move 40px, over 0.5s' src="img/memoryln.jpg" class='img-responsive center-img-mobile'>
+                            </div>
+                            <div data-sr='enter right, move 40px, over 0.5s, vFactor 0.3' class="col-lg-6 col-lg-offset-1 align-justify">
+                                <h3>Memory Lane</h3>
+                                <p>{ Ruby, ActiveRecord, JavaScript && Bootstrap }</p>
+                                <p><em>Easily transform your memories into beautiful animated and customizable single page experiences.</em></p>
+                                <p>MemoryLn.me was a group project developed by myself, Jake Rohr and Aida Mengistu. I worked as project manager while working primarily on the backend, setting up databases and working with Ruby on Rails. My contribution also included many of the features, including the ability to add blocks and choose themes in edit mode.</p>
+                                <p>As product manager, we I set up a agile work flow. Due to the week long production, we kicked agile into overdrive, meeting twice a day to discuss tactics, evaluate which features to add next.</p>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <a href="http://www.memoryln.me" target="_blank" class="btn btn-default btn-lg pfl-btn">Visit MemoryLn.me</a>
+                        </div>
+                    </div>
+                    <br>
+                    <hr id="lunchbreak" >
+                    <br>
+        <!-- Lunch Break Ninja -->
+                    <div class="row">
+                        <div class="row">
+                            <div data-sr='enter left, move 40px, over 0.5s, vFactor 0.3' class="col-lg-6 align-justify">
+                                <h3>LunchBreak.Ninja</h3>
+                                <p>{ JavaScript, Node.js && Bootstrap }</p>
+                                <p><em>Find great places to eat in seconds, no thought required</em></p>
+                                <p>LunchBreak.Ninja was my first major web development project which I developed from the ground up in a single week. It was created to help find a great place to eat within walking distance of your office, no matter where you are. Built on Node.js and utilizing the Yelp and Google Maps APIs as well.</p>
+                                <p>As my first major web development project, I spent nearly as much time learning the intricacies of Node as I did developing the functions that pick your restaurant for you. Not only was this project a great learning experience, I'm also very pleased with the end result, having used the app several times myself.</p>
+                            </div>
+
+                            <div class="col-lg-5 col-lg-offset-1">
+                                <img data-sr='enter right, move 40px, over 0.5s' src="img/responsive-lunch.jpg" class='img-responsive center-img-mobile'>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="http://www.lunchbreak.ninja" target="_blank" class="btn btn-default btn-lg pfl-btn">Visit LunchBreak.Ninja</a>
+                        </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+        <!-- Discovering Aberration -->
+                    <div class="row">
+                        <h2 id="discover" data-sr='enter left, move 40px, over 0.5s'>Author Portfolio</h2>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img data-sr='enter left, move 40px, over 0.5s' src="img/aberrationwidth300.jpg" class='img-responsive center-img-mobile'>
+                            </div>
+                            <div data-sr='enter right, move 40px, over 0.5s' class="col-lg-7 col-lg-offset-1 align-justify">
+                                    <h3>Discovering Aberration</h3>
+                                    <p><em>Violent archaeologists, notorious gangsters, and an island that drives people insane.</em></p>
+                                    <p>"Lovecraftian in the best possible way... the juxtaposition of a steampunk alt-Victorian society and a savage, almost alien island that literally distorts its visitors' sanity and quickly runs red with blood is striking."<br><strong>-Vance Kotrla, Nerds of a Feather</strong></p>
+                                    <p>"So very few steampunk/Victorian stories out there will capture your attention the way this one will."<br><strong>-Ryan, Reader Review</strong></p>
+                                    <p>"Discovering Aberration will steal your mind from reality and take you to a place of unpredictable adventure with twists and turns that will leave you craving more."<br><strong>-EJR, Reader Review</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="http://www.amazon.com/Discovering-Aberration-S-C-Barrus/dp/0989917703" target="_blank" class="btn btn-default btn-lg pfl-btn">View Discovering Aberration on Amazon</a>
+                        </div>
+                    </div>
+                    <br>
+                    <hr id="gin">
+                    <br>
+                    <div class="row">
+                        <div data-sr='enter left, move 40px, over 0.5s' class="col-lg-7 align-justify">
+                                <h3>The Gin Thief</h3>
+                                <p><em>A foreign girl attempting to enter an unforgiving city finds herself thrust into a violent struggle for survival.</em></p>
+                                <p>"Once again, Mr. Barrus has delivered a striking piece of literary genius. "<br><strong>-Vance Kotrla, Nerds of a Feather</strong></p>
+                                <p>"This first episode of the Gin Thief series is a fascinating story..."<br><strong>-SdP, Reader Review</strong></p>
+                        </div>
+                        <div class="col-lg-4 col-lg-offset-1">
+                            <img data-sr='enter right, move 40px, over 0.5s' src="img/ginwidth300.jpg" class='img-responsive center-img-mobile'>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a href="http://www.amazon.com/The-Gin-Thief-Episode-Becoming-ebook/dp/B00NQAELY2/" target="_blank" class="btn btn-default btn-lg pfl-btn">View The Gin Thief on Amazon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Lets work together. Email me!</h2>
+                <p><a href="mailto:codybarrus@gmail.com">codybarrus [at] gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SCBarrus" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/goopscoop" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+SCBarrus" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center footer">
+            <p>Copyright &copy; S. Cody Barrus 2015</p>
+        </div>
+    </footer>
+</body>
+
+</html>
