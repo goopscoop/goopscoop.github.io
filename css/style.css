@@ -63,20 +63,26 @@ text {
   text-align: justify;
 }
 
+#profile-photo {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+
 /*Finish index section*/
 .proj-index {
-  background-color: #F8F8FF;
+  /*background-color: #F8F8FF;*/
   padding: 15px 30px;
   margin-bottom: 100px;
-  border: solid #42dca3 3px;
+  /*border: solid #42dca3 3px;*/
 }
 
 .proj-index li {
   list-style: none;
-  border: solid #42dca3;
-  color: #42dca3;
-  border-width: 3px 3px 3px 30px;
-  border-radius: 6px;
+  /*border: solid #42dca3;*/
+  /*color: #42dca3;*/
+  /*border-width: 3px 3px 3px 30px;*/
+  /*border-radius: 6px;*/
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   margin: 0 0 10px 0;
   padding: 2px 2px 2px 10px;
@@ -96,12 +102,12 @@ text {
   padding-left: 40px;
 }
 
-.proj-index li:hover,
+/*.proj-index li:hover,
 .proj-index li:focus {
     outline: 0;
     color: #000;
     background-color: #42dca3;
-}
+}*/
 
 .proj-index ul {
   padding: 0;
