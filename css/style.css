@@ -73,11 +73,10 @@ text {
 }
 
 .preview-img{
-  height: 250px;
+  height: 350px;
   background: url(../devbox.jpg)
   z-index: 100;
-  position: absolute;
-  background: transparent;
+
 }
 
 .padding {
