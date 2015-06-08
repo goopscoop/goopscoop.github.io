@@ -63,6 +63,28 @@ text {
   text-align: justify;
 }
 
+.port-bg {
+  background: rgba(255,255,255,0.8);
+  padding-top: 100px;
+}
+
+.margin {
+  margin-bottom: 50px;
+}
+
+.preview-img{
+  height: 250px;
+  background: url(../devbox.jpg)
+  z-index: 100;
+  position: absolute;
+  background: transparent;
+}
+
+.padding {
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+
 #profile-photo {
   -webkit-box-shadow: 0 8px 6px -6px black;
      -moz-box-shadow: 0 8px 6px -6px black;

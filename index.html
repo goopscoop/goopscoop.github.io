@@ -118,9 +118,9 @@
     </header>
 
     <!-- About Section -->
-    <div data-parallax="scroll" data-image-src="img/wood-floor-texture.jpg">
+    <div class="padding" data-parallax="scroll" data-image-src="img/wood-floor-texture.jpg">
     <section id="about" class="container content-section text-center" >
-        <div class="row">
+        <div class="row margin">
             <div class="col-lg-8 col-lg-offset-2">
                 <!-- <div class="row"> -->
                 <div class="parallax-window" data-parallax="scroll" data-image-src="img/scbsquare.jpg"></div>
@@ -137,38 +137,61 @@
     </div>
 
     <!-- Download Section -->
-    <section id="download" class="content-section" >
-        <div class="download-section" >
-            <div class="container" >
+    <section id="download" class="content-section"  data-parallax="scroll" data-image-src="img/wood-texture.jpg">
+        <div class="download-section">
+            <div class="container port-bg" >
                 <div class="col-lg-10 col-lg-offset-1">
-                <div class="row" >
-                    <div class="col-lg-10 col-lg-offset-1 proj-index">
-                        <h3>My Projects</h3>
-                        <div class="col-md-6">
-                            <h4>Web Development</h4>
-                            <ul>
-                                <li><a class="page-scroll" href="#memory-ln"><i class="fa fa-cubes animated"></i> Memory Lane</a></li>
-                                <li><a class="page-scroll" href="#lunchbreak"><i class="fa fa-cubes animated"></i> LunchBreak.Ninja</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>Publishing</h4>
-                            <ul>
-                                <li><a class="page-scroll" href="#discover"><i class="fa fa-cubes animated"></i> Discovering Aberration</a></li>
-                                <li><a class="page-scroll" href="#gin"><i class="fa fa-cubes animated"></i> The Gin Thief</a></li>
-                            </ul>
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1 proj-index">
+                            <h3>My Projects | <span class="light">click to explore</span></h3>
+                            <div class="col-md-6">
+                                <h4>Web Development</h4>
+                                <ul>
+                                    <li><a class="page-scroll" href="#devbox"><i class="fa fa-cubes animated"></i> { DevBox }.tools</a></li>
+                                    <li><a class="page-scroll" href="#memory-ln"><i class="fa fa-cubes animated"></i> Memory Lane</a></li>
+                                    <li><a class="page-scroll" href="#lunchbreak"><i class="fa fa-cubes animated"></i> LunchBreak.Ninja</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h4>Publishing</h4>
+                                <ul>
+                                    <li><a class="page-scroll" href="#discover"><i class="fa fa-cubes animated"></i> Discovering Aberration</a></li>
+                                    <li><a class="page-scroll" href="#gin"><i class="fa fa-cubes animated"></i> The Gin Thief</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
         <!-- Memory Lane -->
+        <div class="preview-img" data-parallax="scroll" data-image-src="img/devbox.jpg"></div>
                     <div class="row">
-                        <h2 id="memory-ln" data-sr='enter left, move 160px, over 1.3s'>Developer Portfolio</h2>
+                        <h2 id="devbox" data-sr='enter left, move 160px, over 1.3s'>Developer Portfolio</h2>
+                        <div class="row">
+                            <div class="row">
+                                <div data-sr='enter left, move 40px, over 0.5s, vFactor 0.3' class="col-lg-6 align-justify">
+                                    <h3><a href="http://www.devbox.tools">{ DevBox }.tools</a></h3>
+                                    <p>{ Angular, Ruby on Rails, PostgreSQL && Materialize.css }</p>
+                                    <p><em>Quickly discover quality, vetted web development tools, libraries, frameworks and more</em></p>
+                                    <p>{ DevBox }.tools is my most passionate side project which I continually work on when I have time. It is a site developed for developers to share and discover the best web development tools, libraries, frameworks and more, effectively removing the need for cluttered bookmarks folders while making the task of discovering and vetting obscure libraries much simpler.</p>
+                                    <p>Developed by a team of two, it was built with Ruby on Rails, Angular, Material, Materialize, PostgreSQL, which is a setup I simply love. It features tool reviews formatted with Markdown, upvotes, great search capabilities, and a personal tool box for users to save and easily find their favorite tools as well as links to their documentation, repositories, official websites, and even reviews and community discussion (forum is coming soon). And that's just the beginning! </p>
+                                </div>
+
+                                <div class="col-lg-5 col-lg-offset-1">
+                                    <img data-sr='enter right, move 40px, over 0.5s' src="img/responsive-lunch.jpg" class='img-responsive center-img-mobile'>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <a href="http://www.lunchbreak.ninja" target="_blank" class="btn btn-default btn-lg pfl-btn">Visit LunchBreak.Ninja</a>
+                            </div>
+                        </div>
+                        <br id="memory-ln">
+                        <hr>
+                        <br>
                         <div class="row">
                             <div class="col-lg-5">
                                 <img data-sr='enter left, move 40px, over 0.5s' src="img/memoryln.jpg" class='img-responsive center-img-mobile'>
                             </div>
                             <div data-sr='enter right, move 40px, over 0.5s, vFactor 0.3' class="col-lg-6 col-lg-offset-1 align-justify">
-                                <h3>Memory Lane</h3>
+                                <h3><a href="http://www.memoryln.me">Memory Lane</a></h3>
                                 <p>{ Ruby, ActiveRecord, JavaScript && Bootstrap }</p>
                                 <p><em>Easily transform your memories into beautiful animated and customizable single page experiences.</em></p>
                                 <p>MemoryLn.me was a group project developed by myself, Jake Rohr and Aida Mengistu. I worked as project manager while working primarily on the backend, setting up databases and working with Ruby on Rails. My contribution also included many of the features, including the ability to add blocks and choose themes in edit mode.</p>
@@ -187,7 +210,7 @@
                     <div class="row">
                         <div class="row">
                             <div data-sr='enter left, move 40px, over 0.5s, vFactor 0.3' class="col-lg-6 align-justify">
-                                <h3>LunchBreak.Ninja</h3>
+                                <h3><a href="http://www.lunchbreak.ninja">LunchBreak.Ninja</a></h3>
                                 <p>{ JavaScript, Node.js && Bootstrap }</p>
                                 <p><em>Find great places to eat in seconds, no thought required</em></p>
                                 <p>LunchBreak.Ninja was my first major web development project which I developed from the ground up in a single week. It was created to help find a great place to eat within walking distance of your office, no matter where you are. Built on Node.js and utilizing the Yelp and Google Maps APIs as well.</p>
@@ -221,7 +244,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="http://www.amazon.com/Discovering-Aberration-S-C-Barrus/dp/0989917703" target="_blank" class="btn btn-default btn-lg pfl-btn">View Discovering Aberration on Amazon</a>
+                            <a href="http://www.amazon.com/Discovering-Aberration-S-C-Barrus/dp/0989917703" target="_blank" class="btn btn-default btn-lg pfl-btn">View Discovering Aberration<br> on Amazon</a>
                         </div>
                     </div>
                     <br>
