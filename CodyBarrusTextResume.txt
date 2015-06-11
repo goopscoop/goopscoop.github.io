@@ -1,38 +1,35 @@
-CODY BARRUS 
-WEB DEVELOPER
+CODY BARRUSWEB DEVELOPER
 codybarrus@gmail.com
-codybarrus.com
-(425) 295-4463
-Issaquah, WA
-I'm a web developer and science fiction author. Really, I'm just passionate about creating things, problem solving, and telling stories. Whether it's developing the plot of a kick ass adventure novel, or developing great web based apps, I'm enthusiastic about every aspect of the creation process. 
-As a developer, I enjoy developing front end, back end or full stack. On the front end, I have experience with Angular.js and love working with it. I've also worked extensively with Bootstrap, and design fully responsive sites. On the back end, I've worked in Node.js and Ruby on Rails and enjoy developing solid backend on both. 
-Skills 
-FRONT END 
-HTML5, CSS3, JavaScript, jQuery, Angular.js, Bootstrap, JSON, AJAX 
-BACKEND 
-Ruby on Rails, Node.js, ActiveRecord, Sequelize, PostgresSQL, Express 
-MISC. SKILLS 
-Inbound Marketing, Ecommerce, Content Management, Writing / Publishing, GitHub, Test Driven Development 
-Employment 
-General Assembly Web Development Immersive Student Mar 2015 to Jun 2015 
-Student in a full time, immersive training program averaging 60 hours per week. Created multiple full stack web projects including LunchBreak.ninja on Node.js and MemoryLn.me on Ruby on Rails. Worked extensively with JavaScript, Node.js, Ruby on Rails, and Angular, as well as a wide range of frameworks and libraries. 
-Away And Away Publishing Author/Publisher 2013 to Current 
-Sold over 10,000 copies of my works in 2014. Wrote/published two novels: Discovering Aberration & The Gin Thief. Raised funds of $3,783 through crowdfunding site Kickstarter to offset costs of editing and design (Publishing related projects have a 32.45% success rate). 
-Chair 10 Marketing, Inc. Account Manager 2014 to 2014
-Managed SEO (Search Engine Optimization), PPC (Pay Per Click), and content marketing for clients. Managed advertising campaigns within AdWords, Facebook & Twitter. Performed various optimization tasks including keyword research, meta data optimization and content marketing. 
-Visible.net Marketing Manager  2012 to 2013 
-Oversaw a department of 12 marketing specialists. Created new marketing product, processes, educational/training materials, webinars, and classroom style client training program. Produced new production pipeline which reduced product delivery from 90-120 days to an average of 7-14 days. Performed extensive keyword research, on-site optimization, link building, social network marketing, employee training, client training & more. 
-Projects 
-LunchBreak.Ninja 
-LunchBreak.ninja is a project I build in a week while in the General Assembly Web Development Immersive program. The app finds a random, highly rated restaurant within walking distance, effectively removing the conversation "Where do you want to eat?" "I don't know, where do you want to eat?" Developed from the ground up on Node.js using a Postgres database on the back end, powered by the Yelp API, with JavaScript, jQuery, AJAX, HTML and Bootstrap on the front end. 
-Memory Lane 
-MemoryLn.me was a group project developed by myself, Jake Rohr and Aida Mengistu. I worked as project manager while working primarily on the backend, setting up databases and working with Ruby on Rails. My contribution also included many of the features, including the ability to add blocks and choose themes in edit mode. 
-As product manager, we I set up a agile work flow. Due to the week long production, we kicked agile into overdrive, meeting twice a day to discuss tactics, evaluate which features to add next. 
-Education 
-General Assembly - Web Development Immersive 2015 
-University of Washington - Bachelor of Fine Arts (B.F.A.) Creative Writing 2012 
-Awards 
-Boy Scouts of America · Eagle Scout 
-Feb 2002 
-Earned by Eagle Scout at the age of 16. This process entailed 4 years of earning achievements known as merit badges and performing a high profile service project where I raised money to network a childrens non-profit. 
+codybarrus.comPHONE: (425) 295-4463Issaquah, WA
+LinkedIn: scbarrusGitHub: goopscoop
+I'm a web developer and science fiction author, passionate about creating things, problem solving, and telling stories. Whether it's developing the plot of a thrilling adventure novel, or developing great web apps such as DevBox.tools, I find the creation process rewarding and enjoyable.
+As a developer, I am confident developing in front end or back end. I especially enjoy working with Angular.js and Ruby on Rails, and have experience with a variety of other frameworks and libraries including Node.js, PostgreSQL, MongoDB, jQuery, Bootstrap, Materialize.css, Material and more.
+Skills
+FRONT END- HTML5- CSS3
+- JavaScript
+- jQuery
+- Angular.js
+- Bootstrap
+- Materialize.css
+- Material- AJAX
+- JSON
+BACKEND- Ruby on Rails
+- Node.js
+- Express 
+- ActiveRecord
+- Sequelize
+- PostgresSQL
+- MongoDB
+- MVCMISC. SKILLS- GitHub- Test Driven Development
+- Inbound Marketing
+- Ecommerce- Content Management Writing / Publishing
+Employment History
+General Assembly - Web Development Immersive Student, Mar 2015 to Jun 2015- Studied in a full time, web development immersive training program averaging 60 hours per week.
+- Created three full stack web projects including DevBox.tools, MemoryLn.me, and LunchBreak.ninja.
+- Worked extensively with JavaScript, Node.js, Ruby on Rails, and Angular.js, PostgreSQL, MongoDB, as well as a wide range of frameworks and libraries.
+Away & Away Publishing - Author / Publisher, Jun 2013 to Current
+- Sold over 10,000 copies of my works.- Wrote/published two novels: Discovering Aberration & The Gin Thief. Raised funds of $3,783 through crowdfunding site Kickstarter.Chair 10 Marketing - Account Manager, Feb 2014 to Oct 2014
+- Managed SEO (Search Engine Optimization), PPC (Pay Per Click), and content marketing for clients.
+- Managed advertising campaigns within AdWords, Facebook & Twitter.- Performed various optimization tasks including keyword research, meta data optimization and content marketing.Visible.net - Marketing Manager, Apr 2012 to Dec 2013
 
+- Created new marketing product, processes, educational/training materials, webinars, and classroom style client training program.- Produced new production pipeline which reduced product delivery from 90-120 days to an average of 7- 14 days.- Performed extensive keyword research, on-site optimization, link building, social network marketing, employee training, client training & more.Projects{ DevBox }.tools{ DevBox }.tools is my most passionate side project which I continually work on when I have time. It is a site developed for developers to share and discover the best web development tools, libraries, frameworks and more, effectively removing the need for cluttered bookmarks folders while making the task of discovering and vetting obscure libraries much simpler.Developed by a team of two, it was built with Ruby on Rails, Angular, Material, Materialize, PostgreSQL, which is a setup I simply love. It features tool reviews formatted with Markdown, upvotes, great search capabilities, and a personal tool box for users to save and easily find their favorite tools as well as links to their documentation, repositories and official websites. And that's just the beginning!Memory LaneMemoryLn.me was a group project developed by myself, and two team mates. I worked as project manager while building the Ruby on Rails powered backend and designing a variety of features. It's powered by RoR, PostgreSQL, JavaScript, jQuery, jQueryUI, extensive AJAX, and Bootstrap.LunchBreak.NinjaLunchBreak.ninja was my first web development project built from the ground up by myself over a week. The app finds a highly rated restaurant within walking distance, effectively removing the conversation "Where do you want to eat?", "I don't know, where do you want to eat?" It's powered by Node.js, PostgreSQL, JavaScript, jQuery, AJAX, and Bootstrap.EducationGeneral Assembly - Web Development Immersive 2015University of Washington - Bachelor of Fine Arts (B.F.A.) Creative Writing 2012Bellevue Community College - Associate of Arts and Sciences (A.A.S.), General Studies
