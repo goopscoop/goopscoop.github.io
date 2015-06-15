@@ -19,6 +19,10 @@ html {
     height: 100%;
 }
 
+footer {
+    color: #fff;
+}
+
 #contact {
     background-color: #fff;
 }
