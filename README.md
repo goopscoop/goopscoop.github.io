@@ -1,26 +1,13 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+# Welcome to the portfolio repo for S. Cody Barrus*
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
+## About me
 
-## Getting Started
+Hi, I'm Cody Barrus. I'm a web developer and science fiction author with a background in internet marketing. I'm passionate about creating things, problem solving, and telling stories. Whether it's developing the plot of a thrilling steampunk adventure novel, or developing a great app that takes the thought out of lunch, I enjoy every aspect of the creation process.
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+As a developer, I enjoy developing in front end, back end or full stack capacities. I especially enjoy working with Angular.js and Ruby on Rails, and have experience with a variety of frameworks, libraries, and tools including Node.js, PostgreSQL, MongoDB, jQuery, Bootstrap, Materialize.css, Material and more.
 
-## Bugs and Issues
+## Job Seeker
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
+Currently I'm seeking a Web Development job in the Seattle, Bellevue, or Kirkland areas of WA. If you've taken a look at my site's and their Repo's and think I might make a great fit at your company, feel free to reach out to me.
 
-## Creator
-
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
+* *why the 'S' in S. Cody Barrus? I'm also an author and publish under the name S.C. Barrus. 
