@@ -10,4 +10,4 @@ As a developer, I enjoy developing in front end, back end or full stack capaciti
 
 Currently I'm seeking a Web Development job in the Seattle, Bellevue, or Kirkland areas of WA. If you've taken a look at my site's and their Repo's and think I might make a great fit at your company, feel free to reach out to me.
 
-* *why the 'S' in S. Cody Barrus? I'm also an author and publish under the name S.C. Barrus. 
+**why the 'S' in S. Cody Barrus? I'm also an author and publish under the name S.C. Barrus.*
