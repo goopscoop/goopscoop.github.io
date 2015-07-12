@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -32,11 +33,14 @@
     <script src="js/parallax.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-    <script src='js/scrollReveal.js'></script>
-<!-- My JS Script -->
-    <script src='js/script.js'></script>
+    <script src="js/scrollReveal.js"></script>
+    <!-- My JS Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/skillsWidgetData.js"></script>
+    <script src="js/ngSkillsWidget.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -53,7 +57,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <div data-sr='enter top, over 1.5s, wait 1.2s, ease-in-out 30px, vFactor 0.0'>
+                <div data-sr="enter top, over 1.5s, wait 1.2s, ease-in-out 30px, vFactor 0.0">
                     <a class="navbar-brand page-scroll" href="#page-top">
                         <span class="light"><i class="fa fa-cubes"></i> S. Cody</span> Barrus
                     </a>
@@ -67,21 +71,21 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li data-sr='enter top, over 1.5s, wait 1.4s, ease-in-out 30px, vFactor 0.0'>
+                    <li data-sr="enter top, over 1.5s, wait 1.4s, ease-in-out 30px, vFactor 0.0">
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <li data-sr='enter top, over 1.5s, wait 1.6s, ease-in-out 30px, vFactor 0.0'>
+                    <li data-sr="enter top, over 1.5s, wait 1.6s, ease-in-out 30px, vFactor 0.0">
                         <a class="page-scroll" href="#download">Portfolio</a>
                     </li>
                     <li class="dropdown">
-                      <a data-sr='enter top, over 1.5s, wait 1.8s, ease-in-out 30px, vFactor 0.0' href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Resume <span class="caret"></span></a>
+                      <a data-sr="enter top, over 1.5s, wait 1.8s, ease-in-out 30px, vFactor 0.0" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Resume <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="./CodyBarrusResume.pdf">PDF</a></li>
                         <li><a target="_blank" href="./CodyBarrusTextResume.txt">Plain Text</a></li>
                         <!-- <li><a target="_blank" href="barrus.json">JSON</a></li> -->
                       </ul>
                     </li>
-                    <li data-sr='enter top, over 1.5s, wait 2.0s, ease-in-out 30px, vFactor 0.0'>
+                    <li data-sr="enter top, over 1.5s, wait 2.0s, ease-in-out 30px, vFactor 0.0">
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
@@ -101,14 +105,14 @@
                 <div class="row" >
                     <div class="col-md-8 col-md-offset-2">
                         <svg>
-                          <text class="brand-heading" alignment-baseline="central" y='50%' x='50%' text-anchor="middle" y="80" fill="none" stroke="white" stroke-width="2" >S. Cody Barrus</text>
+                          <text class="brand-heading" alignment-baseline="central" y="50%" x="50%" text-anchor="middle" y="80" fill="none" stroke="white" stroke-width="2" >S. Cody Barrus</text>
                         </svg>
-                            <p id='intro-overide' class="intro-text">
-                                <span data-sr='enter left, over 0.7s, wait 0.8s, ease-in-out 40px, vFactor 0.0'>Web Developer, Author</span>
+                            <p id="intro-overide" class="intro-text">
+                                <span data-sr="enter left, over 0.7s, wait 0.8s, ease-in-out 40px, vFactor 0.0">Web Developer, Author</span>
                                 <br>
-                                <span data-sr='enter right, over 0.7s, wait 1.2s, ease-in-out 40px, vFactor 0.0'>& Creativity Enthusiast.</span>
+                                <span data-sr="enter right, over 0.7s, wait 1.2s, ease-in-out 40px, vFactor 0.0">& Creativity Enthusiast.</span>
                             </p>
-                        <div data-sr='enter bottom, over 0.7s, wait 2.4s, ease-in-out 50px'>
+                        <div data-sr="enter bottom, over 0.7s, wait 2.4s, ease-in-out 50px">
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-cubes animated"></i>
                         </a>
@@ -126,10 +130,10 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- <div class="row"> -->
                     <div class="parallax-window" data-parallax="scroll" data-image-src="img/scbsquare.jpg"></div>
-                        <p><img data-sr='enter bottom, move 100px, over 1.3s' id='profile-photo' class='img-round img-responsive' src="img/scbsquare.jpg"></p>
+                        <p><img data-sr="enter bottom, move 100px, over 1.3s" id="profile-photo" class="img-round img-responsive" src="img/scbsquare.jpg"></p>
                     <!-- </div> -->
-                    <h2 data-sr='enter bottom, move 100px, over 1.5s'>About me</h2>
-                    <div data-sr='enter bottom, move 100px, over 1.5s, wait 0.2s'>
+                    <h2 data-sr="enter bottom, move 100px, over 1.5s">About me</h2>
+                    <div data-sr="enter bottom, move 100px, over 1.5s, wait 0.2s">
                         <p>Hi, I'm Cody Barrus. I'm a <strong>web developer</strong> and <strong>science fiction author</strong> with a background in <strong>internet marketing</strong>. I'm passionate about creating things, problem solving, and telling stories. Whether it's developing the plot of a thrilling steampunk adventure novel, or developing a great app that takes the thought out of lunch, I enjoy every aspect of the creation process.</p>
                         <p>As a developer, I enjoy  developing in front end, back end or full stack capacities. I especially enjoy working with  Angular.js and Ruby on Rails, and have experience with a variety of frameworks, libraries, and tools including Node.js, PostgreSQL, MongoDB, jQuery, Bootstrap, Materialize.css, Material and more.</p>
                     </div>
@@ -142,33 +146,21 @@
         <div class="download-section">
             <div class="container port-bg" >
                 <div class="col-lg-10 col-lg-offset-1">
-                    <div class="row">
-                        <div class="col-lg-10 col-lg-offset-1 proj-index">
-                            <h3>My Projects | <span class="light">click to explore</span></h3>
-                            <div class="col-md-6">
-                                <h4>Web Development</h4>
-                                <ul>
-                                    <li><a class="page-scroll" href="#devbox"><i class="fa fa-cubes animated"></i> { DevBox }.tools</a></li>
-                                    <li><a class="page-scroll" href="#memory-ln"><i class="fa fa-cubes animated"></i> Memory Lane</a></li>
-                                    <li><a class="page-scroll" href="#lunchbreak"><i class="fa fa-cubes animated"></i> LunchBreak.Ninja</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <h4>Publishing</h4>
-                                <ul>
-                                    <li><a class="page-scroll" href="#discover"><i class="fa fa-cubes animated"></i> Discovering Aberration</a></li>
-                                    <li><a class="page-scroll" href="#gin"><i class="fa fa-cubes animated"></i> The Gin Thief</a></li>
-                                </ul>
-                            </div>
+                    <div ng-app="ExploreWidget" class="row">
+                        <div class="col-lg-10 col-lg-offset-1 proj-index" ng-controller="ExploreCtrl">
+
+                        <cbskills skills="mySkills"></cbskills>
+
+
                         </div>
                     </div>
         <!-- Memory Lane -->
 
                     <div class="row">
-                        <h2 id="devbox" data-sr='enter left, move 160px, over 1.3s'>Developer Portfolio</h2>
+                        <h2 id="devbox" data-sr="enter left, move 160px, over 1.3s">Developer Portfolio</h2>
                         <div class="row">
                             <div class="row">
-                                <div data-sr='enter left, move 40px, over 0.5s, vFactor 0.3' class="col-lg-6 align-justify">
+                                <div data-sr="enter left, move 40px, over 0.5s, vFactor 0.3" class="col-lg-6 align-justify">
                                     <h3><a target="_blank" href="http://www.devbox.tools">{ DevBox }.tools</a> <a target="_blank" href="https://github.com/goopscoop/dev_box"><i class="fa fa-github"></i></a></h3>
                                     <p>{ Angular, Ruby on Rails, PostgreSQL && Materialize.css }</p>
                                     <p><em>Quickly discover quality, vetted web development tools, libraries, frameworks and more</em></p>
@@ -177,9 +169,9 @@
                                 </div>
 
                                 <div class="col-lg-5 col-lg-offset-1">
-                                    <img data-sr='enter right, move 40px, over 0.5s' src="img/dev-box.jpg" class='img-responsive center-img-mobile'><br>
-                                    <img data-sr='enter right, move 40px, over 0.5s' src="img/dev-box-1.jpg" class='img-responsive center-img-mobile'><br>
-                                    <img data-sr='enter right, move 40px, over 0.5s' src="img/dev-box-2.jpg" class='img-responsive center-img-mobile'>
+                                    <img data-sr="enter right, move 40px, over 0.5s" src="img/dev-box.jpg" class="img-responsive center-img-mobile"><br>
+                                    <img data-sr="enter right, move 40px, over 0.5s" src="img/dev-box-1.jpg" class="img-responsive center-img-mobile"><br>
+                                    <img data-sr="enter right, move 40px, over 0.5s" src="img/dev-box-2.jpg" class="img-responsive center-img-mobile">
                                 </div>
                             </div>
                             <div class="row">
@@ -191,9 +183,9 @@
                         <br>
                         <div class="row">
                             <div class="col-lg-5">
-                                <img data-sr='enter left, move 40px, over 0.5s' src="img/memoryln.jpg" class='img-responsive center-img-mobile'>
+                                <img data-sr="enter left, move 40px, over 0.5s" src="img/memoryln.jpg" class="img-responsive center-img-mobile">
                             </div>
-                            <div data-sr='enter right, move 40px, over 0.5s, vFactor 0.3' class="col-lg-6 col-lg-offset-1 align-justify">
+                            <div data-sr="enter right, move 40px, over 0.5s, vFactor 0.3" class="col-lg-6 col-lg-offset-1 align-justify">
                                 <h3><a target="_blank" href="http://www.memoryln.me">Memory Lane</a> <a target="_blank" href="https://github.com/jakerohr/memory_lane"><i class="fa fa-github"></i></a></h3>
                                 <p>{ Ruby, ActiveRecord, JavaScript && Bootstrap }</p>
                                 <p><em>Easily transform your memories into beautiful animated and customizable single page experiences.</em></p>
@@ -212,7 +204,7 @@
         <!-- Lunch Break Ninja -->
                     <div class="row">
                         <div class="row">
-                            <div data-sr='enter left, move 40px, over 0.5s, vFactor 0.3' class="col-lg-6 align-justify">
+                            <div data-sr="enter left, move 40px, over 0.5s, vFactor 0.3" class="col-lg-6 align-justify">
                                 <h3><a target="_blank" href="http://www.lunchbreak.ninja">LunchBreak.Ninja</a> <a target="_blank" href="https://github.com/goopscoop/lunchbreakninja"><i class="fa fa-github"></i></a></h3>
                                 <p>{ JavaScript, Node.js && Bootstrap }</p>
                                 <p><em>Find great places to eat in seconds, no thought required</em></p>
@@ -221,7 +213,7 @@
                             </div>
 
                             <div class="col-lg-5 col-lg-offset-1">
-                                <img data-sr='enter right, move 40px, over 0.5s' src="img/responsive-lunch.jpg" class='img-responsive center-img-mobile'>
+                                <img data-sr="enter right, move 40px, over 0.5s" src="img/responsive-lunch.jpg" class="img-responsive center-img-mobile">
                             </div>
                         </div>
                         <div class="row">
@@ -233,12 +225,12 @@
                     <br>
         <!-- Discovering Aberration -->
                     <div class="row">
-                        <h2 id="discover" data-sr='enter left, move 40px, over 0.5s'>Author Portfolio</h2>
+                        <h2 id="discover" data-sr="enter left, move 40px, over 0.5s">Author Portfolio</h2>
                         <div class="row">
                             <div class="col-lg-4">
-                                <img data-sr='enter left, move 40px, over 0.5s' src="img/aberrationwidth300.jpg" class='img-responsive center-img-mobile'>
+                                <img data-sr="enter left, move 40px, over 0.5s" src="img/aberrationwidth300.jpg" class="img-responsive center-img-mobile">
                             </div>
-                            <div data-sr='enter right, move 40px, over 0.5s' class="col-lg-7 col-lg-offset-1 align-justify">
+                            <div data-sr="enter right, move 40px, over 0.5s" class="col-lg-7 col-lg-offset-1 align-justify">
                                     <h3>Discovering Aberration</h3>
                                     <p><em>Violent archaeologists, notorious gangsters, and an island that drives people insane.</em></p>
                                     <p>"Lovecraftian in the best possible way... the juxtaposition of a steampunk alt-Victorian society and a savage, almost alien island that literally distorts its visitors' sanity and quickly runs red with blood is striking."<br><strong>-Vance Kotrla, Nerds of a Feather</strong></p>
@@ -254,14 +246,14 @@
                     <hr id="gin">
                     <br>
                     <div class="row">
-                        <div data-sr='enter left, move 40px, over 0.5s' class="col-lg-7 align-justify">
+                        <div data-sr="enter left, move 40px, over 0.5s" class="col-lg-7 align-justify">
                                 <h3>The Gin Thief</h3>
                                 <p><em>A foreign girl attempting to enter an unforgiving city finds herself thrust into a violent struggle for survival.</em></p>
                                 <p>"Once again, Mr. Barrus has delivered a striking piece of literary genius. "<br><strong>-Vance Kotrla, Nerds of a Feather</strong></p>
                                 <p>"This first episode of the Gin Thief series is a fascinating story..."<br><strong>-SdP, Reader Review</strong></p>
                         </div>
                         <div class="col-lg-4 col-lg-offset-1">
-                            <img data-sr='enter right, move 40px, over 0.5s' src="img/ginwidth300.jpg" class='img-responsive center-img-mobile'>
+                            <img data-sr="enter right, move 40px, over 0.5s" src="img/ginwidth300.jpg" class="img-responsive center-img-mobile">
                         </div>
                     </div>
                     <div class="row">
@@ -276,7 +268,7 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Lets work together. Email me!</h2>
+                <h2>Let's work together. Email me!</h2>
                 <p><a href="mailto:codybarrus@gmail.com">codybarrus [at] gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
