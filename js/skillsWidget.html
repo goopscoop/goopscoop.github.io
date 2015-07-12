@@ -1,0 +1,81 @@
+<div class="row" id="cb-skills-widget">
+<a name="cb-skills-widget-anchor" style="position:absolute; top:-100px;"></a>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3>My Skills | <span class="light">click to explore</span></h3>
+    </div>
+    <div class="panel-body" ng-show="showSkills">
+      <div class="col-lg-4">
+        <h4>Languages</h4>
+        <ul>
+          <li ng-repeat="(key,val) in allLanguages"><a href="#cb-skills-widget-anchor" ng-click="openSkill(key, val)"><i class="fa fa-cubes animated"></i> {{key}}</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h4>Frameworks & Libraries</h4>
+        <ul>
+          <li ng-repeat="(key,val) in allFrameworks"><a href="#cb-skills-widget-anchor" ng-click="openSkill(key, val)"><i class="fa fa-cubes animated"></i> {{key}}</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h4>Other</h4>
+        <ul>
+          <li ng-repeat="(key,val) in allOther"><a href="#cb-skills-widget-anchor" ng-click="openSkill(key, val)"><i class="fa fa-cubes animated"></i> {{key}}</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="panel-body" ng-show="showProjects">
+        <h4>Projects Related to <span class="light">{{activeSkill}}</span> | <a href="#cb-skills-widget-anchor" ng-click="backToSkills()" class="no-slide">Back</a></h4>
+        <div class="col-lg-10 col-lg-offset-1">
+          <ul>
+            <li class="project-menu-name" ng-repeat="project in menuProjects"><a href="#cb-skills-widget-anchor" ng-click="openProject(project)"><i class="fa fa-cubes animated"></i> {{project}}</a></li>
+            <li><a href="#cb-skills-widget-anchor" ng-click="backToSkills()">Back to Skills</a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="panel-body" ng-show="showSelectedProject">
+      <h4>{{displayProjectProperties[0].name}} <span class="light">at a glance</span> | <a href="#cb-skills-widget-anchor" ng-click="backFromProjectDisplayToProjectList()" class="no-slide">Back</a></h4>
+      <div class="row">
+        <div class="row">
+          <div class="col-lg-7 col-lg-offset-1">
+            <br>
+            <h5>Short Description</h5>
+            <p>{{displayProjectProperties[0].shortDesc}} <a ng-href="{{displayProjectProperties[0].links[0]}}" class="no-slide">{{displayProjectProperties[0].linkText[0]}}</a></p>
+          </div>
+          <div class="col-lg-4">
+            <h5>Links</h5>
+              <ul>
+                <li><a ng-href="{{displayProjectProperties[0].links[0]}}">{{displayProjectProperties[0].linkText[0]}}</a></li>
+                <li><a ng-href="{{displayProjectProperties[0].links[1]}}">{{displayProjectProperties[0].linkText[1]}}</a></li>
+                <li><a ng-href="{{displayProjectProperties[0].links[2]}}">{{displayProjectProperties[0].linkText[2]}}</a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                 <h5>Languages used on {{displayProjectProperties[0].name}}</h5>
+              </div>
+              <div class="panel-body">
+                <span ng-repeat="language in displayProjectProperties[0].languages"><a href="#cb-skills-widget-anchor" ng-click="skillFromProjectDisplay(language)" class="no-slide">{{language}}</a>{{$last ? '.' : ', '}}</span>
+              </div>
+              <div class="panel-heading">
+                 <h5>Libraries & Frameworks used on {{displayProjectProperties[0].name}}</h5>
+              </div>
+              <div class="panel-body">
+                <span ng-repeat="framework in displayProjectProperties[0].frameworks"><a href="#cb-skills-widget-anchor" ng-click="skillFromProjectDisplay(framework)" class="no-slide">{{framework}}</a>{{$last ? '.' : ', '}}</span>
+              </div>
+              <div class="panel-heading">
+                 <h5>Other skills used on {{displayProjectProperties[0].name}}</h5>
+               </div>
+              <div class="panel-body">
+                <span ng-repeat="other in displayProjectProperties[0].other"><a href="#cb-skills-widget-anchor" ng-click="skillFromProjectDisplay(other)" class="no-slide">{{other}}</a>{{$last ? '.' : ', '}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

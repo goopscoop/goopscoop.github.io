@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -34,9 +35,10 @@
     <script src="js/grayscale.js"></script>
     <script src="js/scrollReveal.js"></script>
     <!-- My JS Script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.js"></script>
     <script src="js/script.js"></script>
     <script src="js/skillsWidgetData.js"></script>
+    <script src="js/ngSkillsWidget.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -144,24 +146,12 @@
         <div class="download-section">
             <div class="container port-bg" >
                 <div class="col-lg-10 col-lg-offset-1">
-                    <div class="row">
-                        <div class="col-lg-10 col-lg-offset-1 proj-index">
-                            <h3>My Projects | <span class="light">click to explore</span></h3>
-                            <div class="col-md-6">
-                                <h4>Web Development</h4>
-                                <ul>
-                                    <li><a class="page-scroll" href="#devbox"><i class="fa fa-cubes animated"></i> { DevBox }.tools</a></li>
-                                    <li><a class="page-scroll" href="#memory-ln"><i class="fa fa-cubes animated"></i> Memory Lane</a></li>
-                                    <li><a class="page-scroll" href="#lunchbreak"><i class="fa fa-cubes animated"></i> LunchBreak.Ninja</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <h4>Publishing</h4>
-                                <ul>
-                                    <li><a class="page-scroll" href="#discover"><i class="fa fa-cubes animated"></i> Discovering Aberration</a></li>
-                                    <li><a class="page-scroll" href="#gin"><i class="fa fa-cubes animated"></i> The Gin Thief</a></li>
-                                </ul>
-                            </div>
+                    <div ng-app="ExploreWidget" class="row">
+                        <div class="col-lg-10 col-lg-offset-1 proj-index" ng-controller="ExploreCtrl">
+
+                        <cbskills skills="mySkills"></cbskills>
+
+
                         </div>
                     </div>
         <!-- Memory Lane -->

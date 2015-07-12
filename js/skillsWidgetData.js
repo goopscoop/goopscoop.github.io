@@ -7,7 +7,29 @@ var Project = function( name, links, languages, frameworks, database, other, ver
   this.frameworks = frameworks || "";
   this.database = database || "";
   this.other = other || "";
-  this.versionControl = versionControl || "Github"
+  this.versionControl = versionControl || "Github";
+}
+
+var ProjectList = function(){
+  this.start = null;
+  this.end = null;
+  this.makeNode = function(){
+    return {data:null,next:null}
+  };
+  this.add = function(data){
+    if( this.start === null ){
+      this.start = this.makeNode();
+      this.end = this.start;
+    } else {
+      this.end.next = this.makeNode();
+      this.end = this.end.next;
+    }
+    this.end.data = data;
+  }
+}
+
+Project.prototype.returnAll = function(){
+  return
 }
 
 //Building DevBox

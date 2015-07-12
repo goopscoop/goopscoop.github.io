@@ -92,18 +92,12 @@ text {
 
 /*Finish index section*/
 .proj-index {
-  /*background-color: #F8F8FF;*/
   padding: 15px 30px;
   margin-bottom: 100px;
-  /*border: solid #42dca3 3px;*/
 }
 
 .proj-index li {
   list-style: none;
-  /*border: solid #42dca3;*/
-  /*color: #42dca3;*/
-  /*border-width: 3px 3px 3px 30px;*/
-  /*border-radius: 6px;*/
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   margin: 0 0 10px 0;
   padding: 2px 2px 2px 10px;
@@ -122,13 +116,6 @@ text {
   color: #000;
   padding-left: 40px;
 }
-
-/*.proj-index li:hover,
-.proj-index li:focus {
-    outline: 0;
-    color: #000;
-    background-color: #42dca3;
-}*/
 
 .proj-index ul {
   padding: 0;
@@ -187,7 +174,20 @@ text {
 }
 
 
+#cb-skills-widget h5 {
+  margin: 0;
+}
 
+#cb-skills-widget a {
+  display: inline-block;
+}
 
+#cb-skills-widget .no-slide:hover,
+#cb-skills-widget .no-slide:focus {
+  padding-left: 5px;
+}
 
+.project-menu-name {
+  font-size: 1.55em;
+}
 
