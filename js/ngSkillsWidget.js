@@ -3,16 +3,16 @@ var ExploreWidget = angular.module('ExploreWidget',[])
 
 ExploreWidget.controller('ExploreCtrl', ['$scope', function($scope){
 
-  var Project = function( name, links, languages, frameworks, database, other, versionControl ){
+  var Project = function( name, links, languages, frameworks, database, other, versionControl, linkText ){
     this.name = name;
     this.shortDesc = "";
     this.links = links;
-    this.linkText = ["Learn More", "Visit Site", "Github"];
     this.languages = languages || "";
     this.frameworks = frameworks || "";
     this.database = database || "";
     this.other = other || "";
     this.versionControl = versionControl || "Github";
+    this.linkText = linkText || ["Learn More", "Visit Site", "Github"];
   }
 
   //Building DevBox
@@ -41,9 +41,24 @@ ExploreWidget.controller('ExploreCtrl', ['$scope', function($scope){
   var lunchNinja = new Project( 'LunchBreak.ninja', lunchLinks, lunchLang, lunchFram, "PostgreSQL", lunchOther )
   lunchNinja.shortDesc = "With a single click, discover highly reviewed restuarnts that fit your tastes within walking distance."
 
+  var portLinks = [ "http://codybarrus.com", "https://github.com/goopscoop/goopscoop.github.io" ];
+  var portLinkText = [ "Visit Site", "Github" ];
+  var portLang = [ "JavaScript", "HTML5", "CSS3" ];
+  var portFram = [ "Bootstrap", "AngularJS", "jQuery", "scrollReveal.js" ];
+  var portOther = [ "Responsive Design" ]
 
-  $scope.mySkills = [devbox, memLn, lunchNinja];
-  console.log($scope.mySkills)
+  var port = new Project( 'S. Cody Barrus - Portfolio', portLinks, portLang, portFram, "N/A", portOther, portLinkText );
+  port.shortDesc = "Portfolio site for full stack web developer and author S. Cody Barrus. Skilled at Angular, Node, Rails, JavaScript, and more.";
+
+  var skillLinks = [ "https://github.com/goopscoop/skillify", "https://github.com/goopscoop/skillify", "https://github.com/goopscoop/skillify" ];
+  var skillLang = ["JavaScript", "HTML5"];
+  var skillFram = [ "AngularJS", "Bootstrap" ]
+
+  var skillify = new Project( 'Skillify', skillLinks, skillLang, skillFram, "N/A" )
+  skillify.shortDesc = "Simple to use Angular Directive to create an interactive skills widget for your professional portfolio."
+
+  $scope.mySkills = [ devbox, memLn, lunchNinja, port, skillify ];
+
 
 }]);
 
